@@ -15,7 +15,7 @@ TriviaKüsimus.java - küsimuse alamklass, milles on trivia küsimuse konstrukto
 
 Skoor.java - klass, mille eesmärk on loendada mängija skoori ja kõrgeimat skoori. Põhilise töö teeb meetodiga muudaSkoori.
 
-MatemaatikaMäng.java - see on peaklass. Siin loendatakse trivia küsimuste tekstifailist kõik küsimused ja vastused arraylisti,
+Mäng.java - see on peaklass. Siin loendatakse trivia küsimuste tekstifailist kõik küsimused ja vastused arraylisti,
 millest hakatakse küsimusi suvaliselt valima, kusjuures juba esinenud küsimusi kaks korda ei küsita. Meetodiga mängi alustatakse
 ja mängitakse mängu.
 

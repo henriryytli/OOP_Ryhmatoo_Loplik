@@ -6,12 +6,12 @@ import java.util.Random;
 import java.util.Scanner;
 
 // MatemaatikaMäng klass haldab mängu
-public class MatemaatikaMäng {
+public class Mäng {
     private List<TriviaKüsimus> TriviaKüsimusedNimekiri; // Kõik trivia küsimused
     private List<TriviaKüsimus> triviaKüsimused; // Praegused ülejäänud trivia küsimused
 
     // MatemaatikaMäng konstruktor
-    public MatemaatikaMäng() throws FileNotFoundException {
+    public Mäng() throws FileNotFoundException {
         // Lisame trivia küsimused
         TriviaKüsimusedNimekiri = new ArrayList<>();
         Scanner lugeja = new Scanner(new File("trivia.txt"), "UTF-8");
@@ -32,7 +32,7 @@ public class MatemaatikaMäng {
 
         while(true) {
             Küsimus küsimus;
-            // Vali suvaliselt, kas küsida matemaatika küsimus või trivia küsimus
+            // Vali suvaliselt, kas küsida matemaatika küsimus(2/3 tõenäosus) või trivia küsimus
             if (new Random().nextInt(3) == 0 || new Random().nextInt(3) == 1 || triviaKüsimused.isEmpty()) {
                 küsimus = new MatemaatikaKüsimus();
             } else {
@@ -68,7 +68,7 @@ public class MatemaatikaMäng {
 
     // Main meetod käivitab mängu
     public static void main(String[] args) throws FileNotFoundException {
-        MatemaatikaMäng mäng = new MatemaatikaMäng();
+        Mäng mäng = new Mäng();
         mäng.mängi();
     }
 }
