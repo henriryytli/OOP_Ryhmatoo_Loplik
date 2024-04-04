@@ -22,8 +22,7 @@ ja mängitakse mängu.
 
 Projekti protsess:
 
-Alguses brainstormisime ideid, kui see oli leitud, tegime paar kõnet, kus arutlesime ja kodeerisime koos. Kui põhiosa oli
-tehtud, viimistlesime mõlemad programmi. Peaklassi tegime mõlemad lõpuks koos [mis siia veel panna idk]
+Enamus projektist tegime koos, saime delta kärjes sellel eesmärgil kokku. Põhiline töötav programm sai siis koos tehtud ja iseseisvalt me mõlemad pärast viimistlesime programmi omal soovil. 
 
 Projekti tegemisel ei olnud mingeid suuremaid probleeme, sest see pole väga keeruline ja tundsime mõlemad läbitud materjali
 pigem hästi.
